@@ -1,18 +1,21 @@
-# Nome do projeto
+# Potencial Senior
 
 Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Luiza de Freitas Rodrigues
+* Guilherme Rodrigues de Assis
+* João Pedro Maciel de Oliveira
+* Júlia de Souza Ventura
+* Manoel Rodrigues Bezerra Neto
+* Yuri Cardoso Viana
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Diego Augusto de Farias Barros
+* Michelle Hanne Soares de Andrade
+* João Paulo Aramuni
 
 ## Instruções de utilização
 
