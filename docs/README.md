@@ -81,19 +81,26 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-Os requisitos de um projeto são classificados em dois grupos:
-
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
-
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-**Links Úteis**:
-
-- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-- [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+[Requisitos Funcionais (RF)]:
+  - O sistema deve permitir o cadastro das informações pessoais e profissionais do usuário 50+;
+  - O sistema deve permitir o cadastro dos dados das organizações e das vagas que desejam divulgar;
+  - O usuário pode solicitar a redefinição de sua senha informando o e-mail cadastrado;
+  - A persona 50+ pode filtrar as vagas que mais correspondem a área de atuação e localização desejada;
+  - O sistema deve mostrar de uma forma clara as especificações e data de abertura das vagas;
+  - O sistema deve possuir uma aba destinada a indicação de cursos de capacitação para o usuário 50+;
+  - O sistema deve permitir que as empresas tenham acesso aos dados de andamento dos processos seletivos referente ás vagas;
+  - A empresa deve ter acesso a um sistema de notificação aos candidatos a respeito do processo seletivo;
+  - O usuário deve receber notificações sobre o andamento do processo seletivo;
+    
+[Requisitos Não Funcionais (RNF)]:
+  - O sistema deve possuir interface simples e intuitiva;
+  - O sistema deve ser responsivo para todos os modelos de dispositivos;
+  - A solução será desenvolvida em HTML, CSS e Java Script;
+  - A interface e navegação deve ser acessível a todos os usuários;
+  - O site deve ser publicado em um ambiente acessível publicamente na Internet;
+  - O sistema deverá ter disponibilidade 24x7;
+  - A linguagem do sistema deve ser de fácil entendimento, sem uso de termos técnicos;
+  - O sistema precisa estar em conformidade com a LGPD (Lei geral de proteção de dados);
 
 ## User Flow
 
