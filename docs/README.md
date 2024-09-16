@@ -83,14 +83,16 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 [Requisitos Funcionais (RF)]:
   - O sistema deve permitir o cadastro das informações pessoais e profissionais do usuário 50+;
-  - O sistema deve permitir o cadastro dos dados das organizações e das vagas que desejam divulgar;
+  - O sistema deve permitir o cadastro dos dados das organizações;
+  - O sistema deve permitir o cadastro das vagas que a empresa deseja divulgar;
   - O usuário pode solicitar a redefinição de sua senha informando o e-mail cadastrado;
   - A persona 50+ pode filtrar as vagas que mais correspondem a área de atuação e localização desejada;
   - O sistema deve mostrar de uma forma clara as especificações e data de abertura das vagas;
   - O sistema deve possuir uma aba destinada a indicação de cursos de capacitação para o usuário 50+;
   - O sistema deve permitir que as empresas tenham acesso aos dados de andamento dos processos seletivos referente ás vagas;
-  - A empresa deve ter acesso a um sistema de notificação aos candidatos a respeito do processo seletivo;
+  - A empresa deve ter acesso a um sistema que notifique os candidatos a respeito do processo seletivo;
   - O usuário deve receber notificações sobre o andamento do processo seletivo;
+  - O usuário deve receber por e-mail vagas que correspondam ao seu perfil de candidato;
     
 [Requisitos Não Funcionais (RNF)]:
   - O sistema deve possuir interface simples e intuitiva;
@@ -101,6 +103,7 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
   - O sistema deverá ter disponibilidade 24x7;
   - A linguagem do sistema deve ser de fácil entendimento, sem uso de termos técnicos;
   - O sistema precisa estar em conformidade com a LGPD (Lei geral de proteção de dados);
+  - O sistema deve conectar-se a API do LinkedIn;
 
 ## User Flow
 
