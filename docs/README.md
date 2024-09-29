@@ -18,66 +18,121 @@ O template para o site é estruturado e permite que a equipe evolua a documenta�
 
 Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
 
-## Problema
-
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-**Links Úteis**:
-
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
-
-**Links Úteis**:
-
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo geral deste projeto é desenvolver um site que auxilia pessoas com 50 anos ou mais a encontrar oportunidades de emprego e a se adaptar às novas tecnologias do mercado de trabalho.Este espaço será dedicado a oferecer recursos, informações e suporte personalizado, promovendo a inclusão e a valorização da experiência desses profissionais
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-**Links Úteis**:
-
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O impulso para a realização deste trabalho surgiu após uma análise do mercado de trabalho, onde se percebe que as pessoas com 50 anos ou mais estão sendo cada vez mais ficando para trás em comparação com os profissionais mais jovens. Diante dessa realidade, o projeto propõe a criação de uma plataforma web que aproxime as pessoas 50+ desempregadas das empresas e seus setores de recrutamento. A plataforma facilitará a busca por vagas específicas para essa faixa etária e também oferecerá cursos, mantendo esse público atualizado e competitivo no mercado de trabalho.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+1. Usuários Primários: O principal público-alvo são pessoas com mais de 50 anos em busca de emprego, que podem ter diferentes níveis de conhecimento tecnológico.
+2. Empresas: Empresas e recrutadores interessados em contratar profissionais mais experientes.
+3. Familiares e Amigos: Pessoas que podem ajudar os usuários a utilizar a plataforma, especialmente os com pouca familiaridade com tecnologia.
+4. Organizações de apoio: Associações de classe, sindicatos e ONGs que podem apoiar os usuários com cursos, capacitação e apoio na recolocação.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
 
-**Links Úteis**:
-
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+Persona 1: Nome: Lúcia
+                  Idade: 53 anos
+                  Hobby: Pintura
+                  Ocupação: Desempregada
 
-**Links Úteis**:
+Personalidade:
+Lúcia é uma mulher resiliente e carinhosa, conhecida por ser muito comunicativa e extrovertida. Extremamente protetora, ela valoriza a família e os amigos, dedicando-se a cuidar de todos à sua volta. Lúcia é detalhista, organizada e gosta de manter tudo em ordem, sempre preocupada com o bem-estar das pessoas próximas.
 
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+Sonhos:
+Lúcia sonha em mudar-se com seu marido para uma casa mais próxima da natureza, onde ela possa dedicar mais tempo ao seu hobby de pintura. Além disso, ela deseja se envolver em um projeto social que tenha impacto positivo na sua comunidade, especialmente voltado para a inclusão de pessoas idosas.
+
+Objetos e Espaços:
+Dispositivos: Lúcia usa o celular para manter contato com sua família e amigos, bem como para assistir a vídeos tutoriais de pintura e acompanhar suas redes sociais. Ela também utiliza um tablet para explorar referências artísticas e fazer esboços digitais ocasionais.
+Espaços: Lúcia gosta de passar tempo em casa, onde montou um pequeno estúdio para suas atividades de pintura. Além disso, ela frequenta parques e espaços ao ar livre, que servem como inspiração para suas criações artísticas.
+Utensílios: Pincéis, tintas e telas são seus materiais principais. Ela também aprecia manter um ambiente organizado, com ferramentas de pintura sempre ao alcance para facilitar seu trabalho criativo.
+
+Objetivos Chave:
+Reinserção no Mercado de Trabalho: Lúcia está em busca de uma nova oportunidade no mercado de trabalho. Ela quer encontrar uma ocupação que permita utilizar suas habilidades criativas, especialmente em algo relacionado às artes ou ao cuidado com outras pessoas.
+Desenvolvimento Pessoal: Além de focar no trabalho, Lúcia está constantemente procurando formas de aperfeiçoar suas técnicas de pintura. Ela valoriza muito o aprendizado contínuo e gostaria de participar de cursos e oficinas para se manter ativa e criativa.
+Conexão Familiar: Manter-se próxima de sua família é um de seus maiores objetivos. Ela busca flexibilidade para poder estar disponível para os seus familiares, especialmente para acompanhar seus netos e apoiar seus filhos.
+
+Como devemos tratá-la:
+Empatia e Apoio: Lúcia valoriza muito a escuta e a atenção às suas necessidades. Mostrar compreensão e oferecer apoio emocional e prático é essencial para ganhar sua confiança.
+Oportunidades de Desenvolvimento: Ela se sente motivada por novos desafios e pela chance de aprender. Oferecer-lhe oportunidades de crescimento, como oficinas ou grupos de aprendizado, seria uma forma de mantê-la engajada.
+Comunicação Personalizada: A comunicação com Lúcia deve ser clara e adaptada às suas necessidades, reconhecendo sua experiência e oferecendo suporte em processos que possam ser novos para ela, como busca de emprego ou reinserção no mercado.
+
+Persona 2: Nome: Letícia
+                  Idade: 25 anos
+                  Hobby: Leitura
+                  Trabalho: Recursos Humanos (R.H.)
+
+Personalidade:
+Letícia é uma jovem curiosa e introspectiva, com uma paixão genuína pela leitura. Ela é reflexiva, aprecia profundidade e conhecimento, e valoriza momentos de tranquilidade para explorar novas histórias e ideias. Sua personalidade é marcada pelo apreço por momentos de solidão, onde pode se perder em seus livros e pensamentos.
+
+Sonhos:
+Letícia sonha em viajar pelo mundo, visitando diferentes culturas e conhecendo novas histórias e autores. Ela espera que essas experiências ampliem seu horizonte cultural e a ajudem a crescer não apenas como leitora, mas também como escritora.
+
+Objetos e Lugares:
+Livros Físicos: Letícia tem uma forte preferência por livros físicos, especialmente edições de capa dura e com ilustrações especiais. Ela gosta de ter uma coleção que possa exibir em sua estante e sentir nas mãos enquanto lê.
+Marcadores de Página: Ela usa marcadores de página bonitos e personalizados que tornam a experiência de leitura mais prazerosa.
+E-Reader: Apesar da paixão pelos livros físicos, Letícia também usa um e-reader para facilitar a leitura durante viagens ou em situações onde não pode carregar muitos livros físicos.
+Aplicativos de Leitura: Letícia utiliza aplicativos como Goodreads para rastrear suas leituras, buscar recomendações e interagir com outros leitores.
+
+Objetivos Chave:
+Descobrir Novos Livros e Autores: Letícia busca constantemente novos livros e autores que possam enriquecer sua perspectiva e ampliar sua compreensão sobre o mundo.
+Aprender e Aperfeiçoar Habilidades de Escrita: Letícia se interessa em desenvolver suas próprias habilidades de escrita, participando de oficinas, cursos e workshops voltados para esse aperfeiçoamento.
+Organizar e Compartilhar Leituras: Letícia gosta de manter suas leituras bem organizadas, utilizando ferramentas para acompanhar o progresso e compartilhar suas opiniões com amigos e outros leitores.
+
+Como Devemos Tratá-la:
+Respeito à Individualidade: Letícia valoriza seus momentos de introspecção e solidão, portanto é importante respeitar seu espaço e permitir que ela tenha tempo para refletir. Interrupções devem ser mínimas quando ela está focada em leitura ou atividades de estudo.
+Recomendações Personalizadas: Ofereça recomendações de livros com base em suas preferências literárias. Sugestões que possam ampliar seu repertório, mas que se alinhem com seu gosto, são muito apreciadas.
+Apoio ao Aprendizado: Letícia valoriza oportunidades para melhorar suas habilidades de escrita. Incentive-a a participar de cursos ou ofereça suporte prático para o desenvolvimento de suas habilidades criativas.
+
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-**Links Úteis**:
-
-- [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-- [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+<b>Cadastro e Criação de Perfil</b><br>
+1 - Criação de Conta Simples <br>
+Como um usuário com pouca experiência tecnológica, criar uma conta com informações básicas (nome, e-mail, senha), eu possa acessar a plataforma sem dificuldades.<br>
+2 - Upload de Currículo <br>
+Como um usuário com currículo pronto, fazer o upload de meu currículo em formato PDF ou Word, eu não precise preencher manualmente todas as informações do meu histórico profissional.<br>
+3 - Personalização do Perfil <br>
+Como um usuário em transição de carreira, poder personalizar meu perfil destacando minhas habilidades e experiências relevantes, para que eu possa me destacar melhor para as vagas que me interessam.<br>
+4 - Acessibilidade na Criação de Perfil<br>
+Como um usuário com baixa familiaridade tecnológica, um tutorial simples passo a passo na criação do perfil, eu não me sinta perdido durante o processo.<br>
+<b>Busca de Vagas</b><br>
+1 - Pesquisa por Filtros<br>
+Como um usuário buscando empregos específicos, poder filtrar as vagas por localização, tipo de contrato, e área de atuação, eu possa encontrar oportunidades que atendam às minhas necessidades.<br>
+2 - Sugestão de Vagas<br>
+Como um usuário que busca mudar de área, receber sugestões de vagas baseadas no meu perfil e nas minhas experiências, eu possa explorar novas oportunidades que talvez eu não tenha considerado.<br>
+3 - Alerta de Novas Vagas<br>
+Como um usuário que quer acompanhar o mercado, receber notificações por e-mail ou SMS sobre novas vagas que correspondam ao meu perfil, eu possa me candidatar rapidamente.<br>
+<b>Candidatura e Processo Seletivo</b><br>
+1 - Candidatura Simples<br>
+Como um usuário que encontrou uma vaga interessante, poder me candidatar rapidamente com um clique, usando o currículo já salvo no meu perfil, o processo de candidatura seja mais rápido e eficiente.<br>
+2 - Rastreamento de Candidaturas<br>
+Como um usuário ativo na busca de emprego, visualizar o status das minhas candidaturas (enviado, em análise, rejeitado, etc.), eu saiba em que etapa do processo seletivo me encontro.<br>
+3 - Entrevista Virtual<br>
+Como um usuário que participa de processos seletivos, ter a opção de fazer entrevistas online diretamente pela plataforma, eu possa evitar deslocamentos e facilitar o agendamento com os recrutadores.<br>
+<b>Educação e Qualificação</b><br>
+1 - Cursos de Qualificação<br>
+Como um usuário que busca melhorar minhas habilidades, acessar cursos e workshops relevantes diretamente na plataforma, eu possa aumentar minhas chances de ser contratado.<br>
+2 - Recomendação de Cursos<br>
+Como um usuário em busca de transição de carreira, receber recomendações de cursos baseados nas habilidades que estão em alta no mercado, eu possa me preparar melhor para novas oportunidades.<br>
+<b>Suporte e Acessibilidade</b><br>
+1 - Chat de Suporte<br>
+Como um usuário que enfrenta dificuldades técnicas, ter acesso a um chat de suporte rápido e eficiente, eu possa resolver problemas sem comprometer minha experiência no site.<br>
+2- Interface Intuitiva<br>
+Como um usuário com pouca experiência digital, uma interface intuitiva e de fácil navegação, eu possa utilizar a plataforma sem precisar de ajuda constante.<br>
+3- Acessibilidade para Deficientes<br>
+Como um usuário com deficiência visual, que o site seja compatível com leitores de tela, eu possa navegar e buscar empregos de forma independente.<br>
+<b>Conexão com Recrutadores</b><br>
+1 - Mensagens Diretas<br>
+Como um usuário que busca se conectar com empresas, poder enviar mensagens diretas a recrutadores interessados no meu perfil, eu possa iniciar conversas profissionais mais rapidamente.<br>
+2 - Avaliação do Recrutador<br>
+Como um usuário que participou de processos seletivos, avaliar a experiência com os recrutadores, eu possa ajudar outros usuários a saber mais sobre as empresas.<br>
 
 ## Requisitos
 
@@ -107,24 +162,11 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-**Links Úteis**:
-
-- [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-- [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-- [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+https://juliavt403.atlassian.net/wiki/spaces/~5ed6f74a53ec400c2c164984/whiteboard/491522 
 
 ## Wireframes
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
-
-**Links Úteis**:
-
-- [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-- [Figma](https://www.figma.com/)
-- [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-- [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+https://www.figma.com/design/gfntRx9ZIk5nJaZTZr9xIt/Wireframe---Potencial-Senior?node-id=0-1&node-type=canvas&t=AH0tlR1ff0bIJyYp-0 
 
 ## Gestão de Projetos
 
