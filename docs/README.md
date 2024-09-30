@@ -37,10 +37,11 @@ O impulso para a realização deste trabalho surgiu após uma análise do mercad
 
 ## Personas
 
-Persona 1: Nome: Lúcia
-                  Idade: 53 anos <br>
-                  Hobby: Pintura
-                  Ocupação: Desempregada
+Persona 1:<br>
+Nome: Lúcia <br>
+Idade: 53 anos <br>
+Hobby: Pintura <br>
+Ocupação: Desempregada <br>
 
 Personalidade:
 Lúcia é uma mulher resiliente e carinhosa, conhecida por ser muito comunicativa e extrovertida. Extremamente protetora, ela valoriza a família e os amigos, dedicando-se a cuidar de todos à sua volta. Lúcia é detalhista, organizada e gosta de manter tudo em ordem, sempre preocupada com o bem-estar das pessoas próximas.
@@ -63,10 +64,10 @@ Empatia e Apoio: Lúcia valoriza muito a escuta e a atenção às suas necessida
 Oportunidades de Desenvolvimento: Ela se sente motivada por novos desafios e pela chance de aprender. Oferecer-lhe oportunidades de crescimento, como oficinas ou grupos de aprendizado, seria uma forma de mantê-la engajada.
 Comunicação Personalizada: A comunicação com Lúcia deve ser clara e adaptada às suas necessidades, reconhecendo sua experiência e oferecendo suporte em processos que possam ser novos para ela, como busca de emprego ou reinserção no mercado.
 
-Persona 2: Nome: Letícia
-                  Idade: 25 anos
-                  Hobby: Leitura
-                  Trabalho: Recursos Humanos (R.H.)
+Persona 2:<br> Nome: Letícia <br>
+                  Idade: 25 anos <br>
+                  Hobby: Leitura <br>
+                  Trabalho: Recursos Humanos (R.H.) <br>
 
 Personalidade:
 Letícia é uma jovem curiosa e introspectiva, com uma paixão genuína pela leitura. Ela é reflexiva, aprecia profundidade e conhecimento, e valoriza momentos de tranquilidade para explorar novas histórias e ideias. Sua personalidade é marcada pelo apreço por momentos de solidão, onde pode se perder em seus livros e pensamentos.
@@ -95,7 +96,7 @@ Apoio ao Aprendizado: Letícia valoriza oportunidades para melhorar suas habilid
 
 <b>Cadastro e Criação de Perfil</b><br>
 1 - Criação de Conta Simples <br>
-Como um usuário com pouca experiência tecnológica, preciso criar uma conta com informações básicas (nome, e-mail, senha), para que 
+Como um usuário com pouca experiência tecnológica, preciso de uma página de cadastro e login de uma conta com informações básicas (nome, e-mail, senha), para que 
 eu possa acessar a plataforma sem dificuldades.<br>
 2 - Upload de Currículo <br>
 Como um usuário +50 do site, preciso cadastrar o meu currículo na plataforma, para que possa ser notificado das vagas que correspondem ao meu objetivo profissional.<br>
@@ -105,35 +106,37 @@ Como um usuário em transição de carreira, poder personalizar meu perfil desta
 Como um usuário com baixa familiaridade tecnológica, um tutorial simples passo a passo na criação do perfil, eu não me sinta perdido durante o processo.<br>
 <b>Busca de Vagas</b><br>
 1 - Pesquisa por Filtros<br>
-Como um usuário buscando empregos específicos, poder filtrar as vagas por localização, tipo de contrato, e área de atuação, eu possa encontrar oportunidades que atendam às minhas necessidades.<br>
+Como um usuário buscando empregos específicos, eu quero poder filtrar as vagas por localização, tipo de contrato, e área de atuação, para que eu possa encontrar oportunidades que atendam às minhas necessidades.<br>
 2 - Sugestão de Vagas<br>
-Como um usuário que busca mudar de área, receber sugestões de vagas baseadas no meu perfil e nas minhas experiências, eu possa explorar novas oportunidades que talvez eu não tenha considerado.<br>
+Como um usuário que busca mudar de área, receber sugestões de vagas baseadas no meu perfil e nas minhas experiências, para que eu possa explorar novas oportunidades que talvez eu não tenha considerado.<br>
 3 - Alerta de Novas Vagas<br>
-Como um usuário que quer acompanhar o mercado, receber notificações por e-mail ou SMS sobre novas vagas que correspondam ao meu perfil, eu possa me candidatar rapidamente.<br>
+Como um usuário que quer acompanhar o mercado, desejo receber notificações por e-mail ou SMS sobre novas vagas que correspondam ao meu perfil, para que eu possa me candidatar rapidamente.<br>
 <b>Candidatura e Processo Seletivo</b><br>
 1 - Candidatura Simples<br>
-Como um usuário que encontrou uma vaga interessante, poder me candidatar rapidamente com um clique, usando o currículo já salvo no meu perfil, o processo de candidatura seja mais rápido e eficiente.<br>
+Como um usuário que encontrou uma vaga interessante, poder me candidatar rapidamente com um clique, usando o currículo já salvo no meu perfil, para que o processo de candidatura seja mais rápido e eficiente.<br>
 2 - Rastreamento de Candidaturas<br>
-Como um usuário ativo na busca de emprego, visualizar o status das minhas candidaturas (enviado, em análise, rejeitado, etc.), eu saiba em que etapa do processo seletivo me encontro.<br>
+Como um usuário ativo na busca de emprego, preciso visualizar o status das minhas candidaturas (enviado, em análise, rejeitado, etc.), para que eu saiba em que etapa do processo seletivo me encontro.<br>
 3 - Entrevista Virtual<br>
-Como um usuário que participa de processos seletivos, ter a opção de fazer entrevistas online diretamente pela plataforma, eu possa evitar deslocamentos e facilitar o agendamento com os recrutadores.<br>
+Como um usuário que participa de processos seletivos, desejo ter a opção de fazer entrevistas online diretamente pela plataforma, eu possa evitar deslocamentos e facilitar o agendamento com os recrutadores.<br>
 <b>Educação e Qualificação</b><br>
-1 - Cursos de Qualificação<br>
-Como um usuário que busca melhorar minhas habilidades, acessar cursos e workshops relevantes diretamente na plataforma, eu possa aumentar minhas chances de ser contratado.<br>
-2 - Recomendação de Cursos<br>
-Como um usuário em busca de transição de carreira, receber recomendações de cursos baseados nas habilidades que estão em alta no mercado, eu possa me preparar melhor para novas oportunidades.<br>
+1 - Recomendação de Cursos<br>
+Como um usuário em busca de transição de carreira, desejo acessar recomendações de cursos e workshops baseados nas habilidades que estão em alta no mercado, para que eu possa me preparar melhor para novas oportunidades.<br>
 <b>Suporte e Acessibilidade</b><br>
 1 - Chat de Suporte<br>
-Como um usuário que enfrenta dificuldades técnicas, ter acesso a um chat de suporte rápido e eficiente, eu possa resolver problemas sem comprometer minha experiência no site.<br>
+Como um usuário que enfrenta dificuldades técnicas, quero ter acesso a um chat de suporte rápido e eficiente, eu possa resolver problemas sem comprometer minha experiência no site.<br>
 2- Interface Intuitiva<br>
-Como um usuário com pouca experiência digital, uma interface intuitiva e de fácil navegação, eu possa utilizar a plataforma sem precisar de ajuda constante.<br>
+Como um usuário com pouca experiência digital, preciso de uma interface intuitiva e de fácil navegação, eu possa utilizar a plataforma sem precisar de ajuda constante.<br>
 3- Acessibilidade para Deficientes<br>
-Como um usuário com deficiência visual, que o site seja compatível com leitores de tela, eu possa navegar e buscar empregos de forma independente.<br>
+Como um usuário com deficiência visual, desejo que o site seja compatível com leitores de tela, para que eu possa navegar e buscar empregos de forma independente.<br>
 <b>Conexão com Recrutadores</b><br>
 1 - Mensagens Diretas<br>
-Como um usuário que busca se conectar com empresas, poder enviar mensagens diretas a recrutadores interessados no meu perfil, eu possa iniciar conversas profissionais mais rapidamente.<br>
+Como um usuário que busca se conectar com empresas, desejo poder enviar mensagens diretas a recrutadores interessados no meu perfil, para que eu possa iniciar conversas profissionais mais rapidamente.<br>
 2 - Avaliação do Recrutador<br>
 Como um usuário que participou de processos seletivos, avaliar a experiência com os recrutadores, eu possa ajudar outros usuários a saber mais sobre as empresas.<br>
+3 - Sistema de Comunicação<br>
+Como uma empresa usuária do site, preciso de um sistema de comunicação para notificar os candidatos a respeito do processo seletivo. <br>
+4 - Acompanhamento de Processo Seletivo <br>
+Como um empresa usuária do site, preciso de uma aba de acompanhamento para verificar e alterar o andamento do processo seletivo dos candidatos. <br>
 
 ## Requisitos
 
