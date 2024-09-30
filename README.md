@@ -1,6 +1,6 @@
 # Potencial Senior
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+O objetivo geral deste projeto é desenvolver um site que auxilia pessoas com 50 anos ou mais a encontrar oportunidades de emprego e a se adaptar às novas tecnologias do mercado de trabalho. Este espaço será dedicado a oferecer recursos, informações e suporte personalizado, promovendo a inclusão e a valorização da experiência desses profissionais.
 
 ## Alunos integrantes da equipe
 
