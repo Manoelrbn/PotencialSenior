@@ -104,6 +104,7 @@ Como um usuário +50 do site, preciso cadastrar o meu currículo na plataforma, 
 Como um usuário em transição de carreira, poder personalizar meu perfil destacando minhas habilidades e experiências relevantes, para que eu possa me destacar melhor para as vagas que me interessam.<br>
 4 - Acessibilidade na Criação de Perfil<br>
 Como um usuário com baixa familiaridade tecnológica, um tutorial simples passo a passo na criação do perfil, eu não me sinta perdido durante o processo.<br>
+
 <b>Busca de Vagas</b><br>
 1 - Pesquisa por Filtros<br>
 Como um usuário buscando empregos específicos, eu quero poder filtrar as vagas por localização, tipo de contrato, e área de atuação, para que eu possa encontrar oportunidades que atendam às minhas necessidades.<br>
@@ -111,6 +112,7 @@ Como um usuário buscando empregos específicos, eu quero poder filtrar as vagas
 Como um usuário que busca mudar de área, receber sugestões de vagas baseadas no meu perfil e nas minhas experiências, para que eu possa explorar novas oportunidades que talvez eu não tenha considerado.<br>
 3 - Alerta de Novas Vagas<br>
 Como um usuário que quer acompanhar o mercado, desejo receber notificações por e-mail ou SMS sobre novas vagas que correspondam ao meu perfil, para que eu possa me candidatar rapidamente.<br>
+
 <b>Candidatura e Processo Seletivo</b><br>
 1 - Candidatura Simples<br>
 Como um usuário que encontrou uma vaga interessante, poder me candidatar rapidamente com um clique, usando o currículo já salvo no meu perfil, para que o processo de candidatura seja mais rápido e eficiente.<br>
@@ -118,9 +120,11 @@ Como um usuário que encontrou uma vaga interessante, poder me candidatar rapida
 Como um usuário ativo na busca de emprego, preciso visualizar o status das minhas candidaturas (enviado, em análise, rejeitado, etc.), para que eu saiba em que etapa do processo seletivo me encontro.<br>
 3 - Entrevista Virtual<br>
 Como um usuário que participa de processos seletivos, desejo ter a opção de fazer entrevistas online diretamente pela plataforma, eu possa evitar deslocamentos e facilitar o agendamento com os recrutadores.<br>
+
 <b>Educação e Qualificação</b><br>
 1 - Recomendação de Cursos<br>
 Como um usuário em busca de transição de carreira, desejo acessar recomendações de cursos e workshops baseados nas habilidades que estão em alta no mercado, para que eu possa me preparar melhor para novas oportunidades.<br>
+
 <b>Suporte e Acessibilidade</b><br>
 1 - Chat de Suporte<br>
 Como um usuário que enfrenta dificuldades técnicas, quero ter acesso a um chat de suporte rápido e eficiente, eu possa resolver problemas sem comprometer minha experiência no site.<br>
@@ -128,6 +132,7 @@ Como um usuário que enfrenta dificuldades técnicas, quero ter acesso a um chat
 Como um usuário com pouca experiência digital, preciso de uma interface intuitiva e de fácil navegação, eu possa utilizar a plataforma sem precisar de ajuda constante.<br>
 3- Acessibilidade para Deficientes<br>
 Como um usuário com deficiência visual, desejo que o site seja compatível com leitores de tela, para que eu possa navegar e buscar empregos de forma independente.<br>
+
 <b>Conexão com Recrutadores</b><br>
 1 - Mensagens Diretas<br>
 Como um usuário que busca se conectar com empresas, desejo poder enviar mensagens diretas a recrutadores interessados no meu perfil, para que eu possa iniciar conversas profissionais mais rapidamente.<br>
@@ -140,7 +145,7 @@ Como um empresa usuária do site, preciso de uma aba de acompanhamento para veri
 
 ## Requisitos
 
-[Requisitos Funcionais (RF)]:
+Requisitos Funcionais (RF):
   - O sistema deve permitir o cadastro das informações pessoais e profissionais do usuário 50+;
   - O sistema deve permitir o cadastro dos dados das organizações;
   - O sistema deve permitir o cadastro das vagas que a empresa deseja divulgar;
@@ -153,7 +158,7 @@ Como um empresa usuária do site, preciso de uma aba de acompanhamento para veri
   - O usuário deve receber notificações sobre o andamento do processo seletivo;
   - O usuário deve receber por e-mail vagas que correspondam ao seu perfil de candidato;
     
-[Requisitos Não Funcionais (RNF)]:
+Requisitos Não Funcionais (RNF):
   - O sistema deve possuir interface simples e intuitiva;
   - O sistema deve ser responsivo para todos os modelos de dispositivos;
   - A solução será desenvolvida em HTML, CSS e Java Script;
@@ -174,9 +179,13 @@ https://www.figma.com/design/gfntRx9ZIk5nJaZTZr9xIt/Wireframe---Potencial-Senior
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+Para implementação deste projeto, será utilizada a Metodologia Ativa de Desenvolvimento de Software Scrum.
 
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Inicialmente, executamos a elaboração da estratégia para desenvolvimento do software por meio do uso do abordagem metodológica Design Thinking. A partir desse método, foi possível identificarmos e descrevermos de forma precisa o problema a ser solucionado por meio do emprego das opiniões e desejos do usuário e, por fim, esboçamos a nossa proposta inicial de solução.
+
+Ultilizamos também a metodologia do Kanban para a divisão das sprints. Essa abordagem melhora a eficiência, a colaboração e a clareza do fluxo de trabalho, resultando em um gerenciamento mais eficaz das tarefas.
+
+https://juliavt403.atlassian.net/wiki/spaces/~5ed6f74a53ec400c2c164984/whiteboard/720897
 
 **Links Úteis**:
 
