@@ -136,7 +136,7 @@ Como um usuário que participou de processos seletivos, avaliar a experiência c
 3 - Sistema de Comunicação<br>
 Como uma empresa usuária do site, preciso de um sistema de comunicação para notificar os candidatos a respeito do processo seletivo. <br>
 4 - Acompanhamento de Processo Seletivo <br>
-Como um empresa usuária do site, preciso de uma aba de acompanhamento para verificar e alterar o andamento do processo seletivo dos candidatos. <br>
+Como um empresa usuária do site, preciso de uma aba de acompanhamento para verificar e alterar o status de andamento do processo seletivo dos candidatos. <br>
 
 ## Requisitos
 
