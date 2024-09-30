@@ -38,7 +38,7 @@ O impulso para a realização deste trabalho surgiu após uma análise do mercad
 ## Personas
 
 Persona 1: Nome: Lúcia
-                  Idade: 53 anos
+                  Idade: 53 anos <br>
                   Hobby: Pintura
                   Ocupação: Desempregada
 
@@ -95,9 +95,10 @@ Apoio ao Aprendizado: Letícia valoriza oportunidades para melhorar suas habilid
 
 <b>Cadastro e Criação de Perfil</b><br>
 1 - Criação de Conta Simples <br>
-Como um usuário com pouca experiência tecnológica, criar uma conta com informações básicas (nome, e-mail, senha), eu possa acessar a plataforma sem dificuldades.<br>
+Como um usuário com pouca experiência tecnológica, preciso criar uma conta com informações básicas (nome, e-mail, senha), para que 
+eu possa acessar a plataforma sem dificuldades.<br>
 2 - Upload de Currículo <br>
-Como um usuário com currículo pronto, fazer o upload de meu currículo em formato PDF ou Word, eu não precise preencher manualmente todas as informações do meu histórico profissional.<br>
+Como um usuário +50 do site, preciso cadastrar o meu currículo na plataforma, para que possa ser notificado das vagas que correspondem ao meu objetivo profissional.<br>
 3 - Personalização do Perfil <br>
 Como um usuário em transição de carreira, poder personalizar meu perfil destacando minhas habilidades e experiências relevantes, para que eu possa me destacar melhor para as vagas que me interessam.<br>
 4 - Acessibilidade na Criação de Perfil<br>
