@@ -37,7 +37,7 @@ O impulso para a realização deste trabalho surgiu após uma análise do mercad
 
 ## Personas
 
-Persona 1:<br>
+<b>Persona 1:</b><br>
 Nome: Lúcia <br>
 Idade: 53 anos <br>
 Hobby: Pintura <br>
@@ -64,7 +64,7 @@ Empatia e Apoio: Lúcia valoriza muito a escuta e a atenção às suas necessida
 Oportunidades de Desenvolvimento: Ela se sente motivada por novos desafios e pela chance de aprender. Oferecer-lhe oportunidades de crescimento, como oficinas ou grupos de aprendizado, seria uma forma de mantê-la engajada.
 Comunicação Personalizada: A comunicação com Lúcia deve ser clara e adaptada às suas necessidades, reconhecendo sua experiência e oferecendo suporte em processos que possam ser novos para ela, como busca de emprego ou reinserção no mercado.
 
-Persona 2:<br> Nome: Letícia <br>
+<b>Persona 2:</b><br> Nome: Letícia <br>
                   Idade: 25 anos <br>
                   Hobby: Leitura <br>
                   Trabalho: Recursos Humanos (R.H.) <br>
