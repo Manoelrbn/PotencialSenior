@@ -24,7 +24,7 @@ O objetivo geral deste projeto é desenvolver um site que auxilia pessoas com 50
 
 ## Justificativa
 
-O impulso para a realização deste trabalho surgiu após uma análise do mercado de trabalho, onde se percebe que as pessoas com 50 anos ou mais estão sendo cada vez mais ficando para trás em comparação com os profissionais mais jovens. Diante dessa realidade, o projeto propõe a criação de uma plataforma web que aproxime as pessoas 50+ desempregadas das empresas e seus setores de recrutamento. A plataforma facilitará a busca por vagas específicas para essa faixa etária e também oferecerá cursos, mantendo esse público atualizado e competitivo no mercado de trabalho.
+O impulso para a realização deste trabalho surgiu após uma análise do mercado de trabalho, onde se percebe que as pessoas com 50 anos ou mais estão sendo cada vez desvalorizados em comparação com os profissionais mais jovens. Diante dessa realidade, o projeto propõe a criação de uma plataforma web que aproxime as pessoas 50+ desempregadas das empresas e seus setores de recrutamento. A plataforma facilitará a busca por vagas específicas para essa faixa etária e também oferecerá cursos, mantendo esse público atualizado e competitivo no mercado de trabalho.
 
 ## Público-Alvo
 
