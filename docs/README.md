@@ -15,8 +15,9 @@ A documentação do projeto inclui as seguintes seções:
 O template para o site é estruturado e permite que a equipe evolua a documentação do projeto à medida que avance no desenvolvimento.
 
 # Orientações gerais
-
-Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
+FIGMA(https://www.figma.com/design/gfntRx9ZIk5nJaZTZr9xIt/Wireframe---Potencial-Senior?node-id=0-1&node-type=canvas&t=AH0tlR1ff0bIJyYp-0 )
+OVER-FLOW(https://juliavt403.atlassian.net/wiki/spaces/~5ed6f74a53ec400c2c164984/whiteboard/491522 ) 
+KANBAN(https://juliavt403.atlassian.net/wiki/spaces/~5ed6f74a53ec400c2c164984/whiteboard/720897)
 
 ## Objetivos
 
