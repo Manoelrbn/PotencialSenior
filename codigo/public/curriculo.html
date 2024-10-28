@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curriculo</title>
+        <link rel="stylesheet" href="curriculo.css">
+    </head>
+    <body>   
+        <main>
+            <h1>Bem-vindo(a) ao seu novo Potencial!</h1>
+            <p>Vamos começar cadastrando seu currículo para encontrar as vagas mais compatíveis com seu perfil.</p>
+
+            <section class="form-section">
+                <h2>Dados pessoais</h2>
+                <hr>
+                <form id="curriculoForm" action="/submit" method="POST">
+                    <div class="dados-pessoais-section">
+                            <div class="foto-perfil">
+                                <img src="#" id="foto-preview" alt="">
+                                <input type="file" id="foto-perfil" name="foto-perfil" style="display:none;">
+                                <button type="button" onclick="document.getElementById('foto-perfil').click()">Adicionar foto</button>
+                                </div>
+
+                            <div class="dados-pessois">
+                                <label for="nome">Nome*</label>
+                                <input type="text" id="nome" name="nome"required>
+
+                                <div class="idade-nacionalidade"> 
+                                    <div class="input-group">
+                                        <label for="idade">Idade*</label>
+                                        <input type="text" id="idade" name="idade"required>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <label for="nacionalidade">País de nacionalidade*</label>
+                                        <input type="text" id="nacionalidade" name="nacionalidade"required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <h2>Endereço</h2>
+                    <hr>
+                    <div class="endereco">
+                        <div class="input-group3">
+                            <label for="endereco">Endereço*</label>
+                            <input type="text" id="endereco" name="endereco"required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="numero">Número*</label>
+                            <input type="text" id="numero" name="numero"required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="complemento">Complemento</label>
+                            <input type="text" id="complemento" name="complemento"required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="cidade">Cidade*</label>
+                            <input type="text" id="cidade" name="cidade"required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="estado">Estado*</label>
+                            <input type="text" id="estado" name="estado"required>
+                        </div>
+
+                    </div>
+
+                    <h2>Informações de contato</h2>
+                    <hr>
+                    <div class="contato">
+                        <div class="input-group2">
+                            <label for="telefone">Telefone*</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="celular">Celular*</label>
+                            <input type="tel" id="celular" name="celular" required>
+                        </div>
+                    </div>
+
+                    <h2>Resumo Profissional</h2>
+                    <hr>
+                    <textarea name="resumo" id="resumo" rows="5" placeholder="Insira um pequeno resumo sobre você e suas experiências profissionais*"></textarea>
+
+                    <h2>Formação acadêmica</h2>
+                    <hr>
+                    <div id="fomacao-academica">
+                    <div class="fomacao-academica">
+                        <div class="input-group">
+                            <label for="escolaridade">Nível de escolaridade*</label>
+
+                            <div class="escolaridade-container">
+                                <input type="text" id="escolaridade" name="escolaridade[]" required>
+                                <button type="button" class="button-formacao">Adicionar outra formação</button>
+                            </div>
+                            
+                            <div class="input-group">
+                                <label for="tipo-curso">Tipo do curso*</label>
+                                <input type="text" id="tipo-curso" name="tipo-curso[]" required>
+                            </div>
+                            <div class="input-group">
+                            <label for="nome-curso">Nome do curso*</label>
+                            <input type="text" id="nome-curso" name="nome-curso[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="instituicao">Instituição*</label>
+                            <input type="text" id="instituicao" name="instituicao[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="situacao">Situação atual*</label>
+                            <div class="radio-group">
+                                <input type="radio" id="interrompido" name="situacao[]" value="interrompido">
+                                <label for="interrompido">Interrompido</label>
+                                <input type="radio" id="cursando" name="situacao[]" value="cursando">
+                                <label for="cursando">Cursando</label>
+                                <input type="radio" id="concluido" name="situacao[]" value="concluido">
+                                <label for="concluido">Concluído</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-inicio">Ano de início</label>
+                            <input type="text" id="ano-inicio" name="ano-inicio[]">
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-conclusao">Ano de conclusão</label>
+                            <input type="text" id="ano-conclusao" name="ano-conclusao[]">
+                        </div>
+                    </div>
+
+                    <h2>Histórico Profissional</h2>
+                    <hr>
+                    <div id="historico-profissional">
+                    <div class="historico-profissional">
+                        <div class="input-group">
+                            <label for="empresa">Empresa*</label>
+                            <div class="profissao-container">
+                                <input type="text" id="empresa" name="empresa[]" required>
+                                <button type="button" class="button-profissao">Adicionar outra profissão</button>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="cargo">Cargo*</label>
+                            <input type="text" id="cargo" name="cargo[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="cidade-profissional">Cidade*</label>
+                            <input type="text" id="cidade-profissional" name="cidade-profissional[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-inicio-profissional">Ano de início</label>
+                            <input type="text" id="ano-inicio-profissional" name="ano-inicio-profissional[]">
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-termino-profissional">Ano de término</label>
+                            <input type="text" id="ano-termino-profissional" name="ano-termino-profissional[]">
+                        </div>
+                        <div class="input-group">
+                            <label for="descricao-cargo">Descrição do cargo*</label>
+                            <textarea id="descricao-cargo" name="descricao-cargo[]" rows="4" required  ></textarea>
+                        </div>
+                        </div>
+                        <h2>Informações Complementares</h2>
+                            <hr>
+                        <div class="input-group">
+                            <textarea name="informacoes-complementares" id="informacoes-complementares" rows="4" placeholder="Texto livre para você complementar seu currículo."></textarea>
+                        </div>
+                        </div>
+                    <div class="buttonsalva-container">
+                        <button type="submit">Salvar informações</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script src="codigo.js"></script> 
+    </body>
+</html>
