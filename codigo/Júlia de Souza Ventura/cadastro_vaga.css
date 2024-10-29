@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #2C694D;
+    margin: 5px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+h1 {
+    font-size: 24px;
+    color: #2C694D;
+    text-align: center;
+}
+p {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2 {
+    color: #2C694D;
+    margin-top: 20px;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.dados-empresa{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+.dados-vaga{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+.descricao-vaga{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.input-group2{
+    flex: 1;
+    min-width: 200px;
+}
+.input-group3{
+    flex: 1;
+    min-width: 560px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+textarea {
+    resize: vertical;
+}
+button {
+    background-color: #2C694D;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #1e4d36;
+}
+.buttonsalvar{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
