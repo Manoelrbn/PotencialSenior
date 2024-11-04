@@ -3,16 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f6051;
+    padding: 10px 20px;
+    color: white;
+}
+.logo img {
+    height: 40px;
+    width: auto;
+}
 hr {
     border: none;
     height: 1px;
     background-color: #2C694D;
     margin: 5px;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-    padding: 20px;
 }
 main {
     background-color: white;
