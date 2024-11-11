@@ -14,5 +14,5 @@ function submitForm() {
 
     sessionStorage.setItem("cadastroVagaForm", JSON.stringify(cadastroVagaForm));
 
-    window.location.href = "exibir_vaga.html";
+    window.location.href = "apresentacao_vaga.html";
 }

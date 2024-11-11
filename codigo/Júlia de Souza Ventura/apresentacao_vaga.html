@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir Empresa/Vagas</title>
+    <link rel="stylesheet" href="apresentacao_vaga.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="/imagens/logo.jpg" alt="Logo" />
+        </div>
+    </header>
+
+    <main>
+        <h1><strong><span id="exibirNome"></span></strong></h1>
+        <hr>
+        <p><strong>Faixa Salarial: </strong> <span id="exibirSalario"></span></p>
+        <p><strong>Localização: </strong> <span id="exibirLoc"></span></p>
+
+        <h2>Descrição da vaga</h2>
+        <hr>
+
+        <div class="descricao">
+            <p><strong></strong> <span id="exibirDescricao"></span></p>
+            <h3>Responsabilidades</h3>
+            <p><strong></strong> <span id="exibirResponsabilidade"></span></p>
+            <h3>Requisitos</h3>
+            <p><strong></strong> <span id="exibirRequisitos"></span></p>
+        </div>
+    
+    </main>
+
+    <script>
+        const formData = JSON.parse(sessionStorage.getItem("cadastroVagaForm"));
+
+        document.getElementById("exibirNome").textContent = formData.nome_vaga;
+        document.getElementById("exibirSalario").textContent = formData.salario;
+        document.getElementById("exibirLoc").textContent = formData.localizacao;
+        document.getElementById("exibirDescricao").textContent = formData.resumo;
+        document.getElementById("exibirResponsabilidade").textContent = formData.responsabilidades;
+        document.getElementById("exibirRequisitos").textContent = formData.requisitos;
+        
+    </script>
+
+</body>
+</html>
