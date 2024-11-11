@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body
+{
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f6051;
+    padding: 20px 50px;
+    color: white;
+    gap: 15px;
+}
+
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.notification {
+    background-image: url('assests/bell-fill.svg'); 
+    filter: invert(1);
+}
+
+.user {
+    background-image: url('assests/person-circle.svg'); 
+    filter: invert(1);
+}
+
+.content_header
+{
+    display: flex;
+}
+#TopoCursos
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+#Texto
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#Texto h1
+{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color:#0A5C46
+}
+
+#Texto p
+{
+    line-height: 1.8;
+    font-weight: 700; 
+    color:#606060;
+    font-family: "Open Sans", serif;
+}
+
+#Cards
+{
+    margin: auto;
+    margin-bottom: 80px;
+    width: 80%;
+    
+}
+
+.card-body
+{
+    height: 150px;
+    margin:15px;
+}
+.Contato
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 20px 90px;
+    background-color:#0A5C46;
+    color:#FFFFFF;
+    width: 80%;
+    justify-content: space-between;
+    border-radius: 15px;
+    z-index:0;
+}
+.Contato h1
+{
+    font-weight: 500;
+}
+.Contato p
+{
+    color:#FFFFFF;
+    font-weight: 400;
+}
+.Contatar
+{
+    background-color: #FFFFFF;
+    color:#0A5C46;
+    border: #0A5C46;
+    border-radius: 15px;
+    width: 140px;
+    height: 50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 10pt;
+    z-index: 3;
+}
+.Contatar:hover
+{
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-section h3 {
+    color: #1c5d51;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #333;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.footer-section ul li a:hover {
+    color: #1c5d51;
+}
+
+.social-media .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-media .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
