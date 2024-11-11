@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #004d35;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.candidatura h2 {
+    color: #004d35;
+    font-size: 1.5rem;
+}
+
+.candidatura p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.progress-bar .step {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    color: #ccc;
+    border-bottom: 2px solid #ccc;
+    flex: 1;
+    text-align: center;
+}
+
+.progress-bar .step.active {
+    color: #004d35;
+    border-bottom-color: #004d35;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.reject {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.advance {
+    background-color: #004d35;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.dados-pessoais, .resumo-profissional, .formacao-academica, .historico-profissional {
+    margin-bottom: 2rem;
+}
+
+.dados-pessoais h3, .resumo-profissional h3, .formacao-academica h3, .historico-profissional h3 {
+    font-size: 1.3rem;
+    color: #004d35;
+    margin-bottom: 1rem;
+}
+
+.perfil {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.perfil img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.info {
+    font-size: 0.9rem;
+}
+
+.dados-pessoais h4, .formacao-academica h4 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #004d35;
+}
+
+.resumo-profissional p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.formacao-academica p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.historico h3, h4  {
+    line-height: 1.6;
+    color: #004d35;
+}
+.informacoes-complementares h3 {
+    color: #004d35;
+}
+footer {
+    background-color: #f5f5f5;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-section h3 {
+    color: #1c5d51;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #333;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.footer-section ul li a:hover {
+    color: #1c5d51;
+}
+
+.social-media .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-media .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
