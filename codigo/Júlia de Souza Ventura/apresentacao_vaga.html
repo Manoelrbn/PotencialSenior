@@ -15,23 +15,70 @@
     </header>
 
     <main>
-        <h1><strong><span id="exibirNome"></span></strong></h1>
-        <hr>
-        <p><strong>Faixa Salarial: </strong> <span id="exibirSalario"></span></p>
-        <p><strong>Localização: </strong> <span id="exibirLoc"></span></p>
+        <div class="input-group">
 
-        <h2>Descrição da vaga</h2>
-        <hr>
+            <h1><strong><span id="exibirNome"></span></strong></h1>
+            <hr>
 
-        <div class="descricao">
-            <p><strong></strong> <span id="exibirDescricao"></span></p>
-            <h3>Responsabilidades</h3>
-            <p><strong></strong> <span id="exibirResponsabilidade"></span></p>
-            <h3>Requisitos</h3>
-            <p><strong></strong> <span id="exibirRequisitos"></span></p>
-        </div>
+            <div class="principal-container">
+                <div class="dados-vaga">
+                    <p><strong>Faixa Salarial: </strong> <span id="exibirSalario"></span></p>
+                    <p><strong>Localização: </strong> <span id="exibirLoc"></span></p>
+                </div>
+
+                <div class="botao-vaga">
+                    <button type="button" class="button-editar">Editar vaga</button>
+                    <button type="button" class="button-excluir">Excluir vaga</button>
+                </div>
+            </div>
+
+            <h2>Descrição da vaga</h2>
+            <hr>
+
+            <div class="descricao-vaga">
+                <p><strong></strong> <span id="exibirDescricao"></span></p>
+                <h3>Responsabilidades</h3>
+                <p><strong></strong> <span id="exibirResponsabilidade"></span></p>
+                <h3>Requisitos</h3>
+                <p><strong></strong> <span id="exibirRequisitos"></span></p>
+            </div>
     
+        </div>
     </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Potencial Sênior</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sintelit officia consequat</p>
+            </div>
+            <div class="footer-section">
+                <h3>Home</h3>
+                <ul>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Vagas</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Serviços</h3>
+                <ul>
+                    <li><a href="#">Cursos indicados</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Siga nossas redes sociais</h3>
+                <div class="social-icons">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script>
         const formData = JSON.parse(sessionStorage.getItem("cadastroVagaForm"));
