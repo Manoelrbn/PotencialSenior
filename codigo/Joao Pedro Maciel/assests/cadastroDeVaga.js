@@ -200,20 +200,38 @@ const vagasTI = [
 function buscarVaga() {
   let cargo = document.querySelector("#cargo").value.trim().toLowerCase();
   let local = document.querySelector("#local").value.trim().toLowerCase();
-  let categoria = document.querySelector("#categoria").value.trim().toLowerCase();
+  let categoria = document.querySelector("#categoria").value.toLowerCase();
   for (let i = 0; i < vagasTI.length; i++){
-    const vaga = vagasTI[i];
-
+    
+    
     if (
-        (cargo && vaga.cargo.toLowerCase() === cargo.toLowerCase()) ||
-        (local && vaga.local.toLowerCase() === local.toLowerCase()) ||
-        (categoria && vaga.descricao.toLowerCase() === categoria.toLowerCase())
+        (vagasTI[i].cargo.toLowerCase() === cargo.toLowerCase()) ||
+        (vagasTI[i].local.toLowerCase() === local.toLowerCase()) &&
+        (vagasTI[i].descricao.toLowerCase() === categoria.toLowerCase())
     ) {
 
-        imprimirVaga(vaga.cargo, vaga.descricao, vaga.local, vaga.salario);
+        imprimirVaga( vagasTI[i].cargo,  vagasTI[i].descricao,  vagasTI[i].local,  vagasTI[i].salario);
     }
   }
-  
 }
 
 
+const modal = document.getElementById("notificationModal");
+const abrirMOdal = document.getElementById("openModal");
+const fecharModal = document.querySelector(".close");
+
+abrirMOdal.onclick = function () {
+    modal.style.display = "block";
+}
+
+
+fecharModal.onclick = function () {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function (event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}

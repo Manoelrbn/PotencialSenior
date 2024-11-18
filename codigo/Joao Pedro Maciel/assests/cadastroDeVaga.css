@@ -46,12 +46,12 @@
 }
 
 .notification {
-  background-image: url("/assests/img/bell-fill.svg");
+  background-image: url("/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Joao Pedro Maciel/assests/imgs/bell-fill.svg");
   filter: invert(1);
 }
 
 .user {
-  background-image: url("/assests/img/person-circle.svg");
+  background-image: url("/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Joao Pedro Maciel/assests/imgs/person-circle.svg");
   filter: invert(1);
 }
 
@@ -343,6 +343,7 @@ footer {
     height: 100%;
     background-color: rgba(0,0,0,0.4); /* Fundo translúcido */
     padding-top: 60px;
+    
 }
 
 .modal-content {
