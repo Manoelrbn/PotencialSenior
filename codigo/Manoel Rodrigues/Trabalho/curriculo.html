@@ -8,29 +8,11 @@
     </head>
     <body>   
         <main>
-            <header class="header">
-                <div class="logo">
-                    <img src="/header/assests/logo.jpg" alt="Logo" />
-                </div>
-                        <nav class="nav-links">
-                         <a href="#vagas">Vagas</a>
-                        <a href="#cursos">Cursos</a>
-                </nav>
-                         <div class="icons">
-                            <span class="icon notification"></span>
-                            <span class="icon user"></span>
-                             <span class="username">Lúcia de Andrade</span>
-                </div>
-            </header>
+            <h1>Bem-vindo(a) ao seu novo Potencial!</h1>
+            <p>Vamos começar cadastrando seu currículo para encontrar as vagas mais compatíveis com seu perfil.</p>
 
-            
-            
-            
-            
-           
             <section class="form-section">
-                <h2>Dados pessoais   <button class="edit-btn" onclick="toggleEdit()">Editar currículo</button></h2>
-            </h2>
+                <h2>Dados pessoais</h2>
                 <hr>
                 <form id="curriculoForm" action="/submit" method="POST">
                     <div class="dados-pessoais-section">
@@ -40,142 +22,154 @@
                                 <button type="button" onclick="document.getElementById('foto-perfil').click()">Adicionar foto</button>
                                 </div>
 
-                                
-                                   <strong>Lúcia de Andrade </strong> Idade: 53 anos
-                                   <p class="editable" contenteditable="false"> E-mail:  <br>
-                                    luciaandrade@gmail.com
-                                </p>
-                                <p class="editable" contenteditable="false">Idade: 53 anos</p> 
-                                <p class="editable" contenteditable="false">País de nacionalidade: Brasil</p> 
-                              </div>
+                            <div class="dados-pessois">
+                                <label for="nome">Nome*</label>
+                                <input type="text" id="nome" name="nome"required>
 
-                           
+                                <div class="idade-nacionalidade"> 
+                                    <div class="input-group">
+                                        <label for="idade">Idade*</label>
+                                        <input type="text" id="idade" name="idade"required>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <label for="nacionalidade">País de nacionalidade*</label>
+                                        <input type="text" id="nacionalidade" name="nacionalidade"required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <h2>Endereço</h2>
                     <hr>
                     <div class="endereco">
                         <div class="input-group3">
-                            <strong>Endereço*</strong>
-                            <p class="editable" contenteditable="false">Belo Horizonte, MG - Brasil</p>
-                            <p class="editable" contenteditable="false"> Celular: 31 90000-0000</p>
-                               
-                            </p>
-
-
+                            <label for="endereco">Endereço*</label>
+                            <input type="text" id="endereco" name="endereco"required>
                         </div>
-                        
+                        <div class="input-group2">
+                            <label for="numero">Número*</label>
+                            <input type="text" id="numero" name="numero"required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="complemento">Complemento</label>
+                            <input type="text" id="complemento" name="complemento"required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="cidade">Cidade*</label>
+                            <input type="text" id="cidade" name="cidade"required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="estado">Estado*</label>
+                            <input type="text" id="estado" name="estado"required>
+                        </div>
 
+                    </div>
+
+                    <h2>Informações de contato</h2>
+                    <hr>
+                    <div class="contato">
+                        <div class="input-group2">
+                            <label for="telefone">Telefone*</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        <div class="input-group2">
+                            <label for="celular">Celular*</label>
+                            <input type="tel" id="celular" name="celular" required>
+                        </div>
                     </div>
 
                     <h2>Resumo Profissional</h2>
                     <hr>
-                    <div class="contato">
-                        
-                        <p class="editable" contenteditable="false"> Lorem ipsum dolor sit amet consectetur. Augue felis et ipsum ut quam a sagittis diam. Viverra consectetur ac aliquet maecenas tincidunt. Etiam porttitor nec vestibulum vitae donec. Nulla tellus nunc odio suspendisse. Viverra feugiat massa in tincidunt nunc amet. Felis ultricies nulla nunc quam id tincidunt tortor velit curabitur. Urna dignissim consequat eget nunc. Lacus amet arcu condimentum ac. Ac in cursus non venenatis eget.</p>
-                        
-                        
-                    </div>
+                    <textarea name="resumo" id="resumo" rows="5" placeholder="Insira um pequeno resumo sobre você e suas experiências profissionais*"></textarea>
 
-                    <h2>Formação Acadêmica</h2>
+                    <h2>Formação acadêmica</h2>
                     <hr>
-                    <strong> NIVEL DE ESCOLARIDADE</strong> <BR>
-                    <p class="editable" contenteditable="false"> Ensino Médio Completo</p>
-                       
-                    <strong>GRADUAÇÃO</strong> <BR>
-                        
-                        <p class="editable" contenteditable="false"> Licenciatura em Sociologia - UFBR Universidade Federal do Brasil <br>
-                            Dezembro de 1992 - Concluído
-                        </p>
-                       
-                    
-                    <h2>Histórico Profissional</h2>
-                    <hr>
-                    <strong> Assistente de Pesquisa Sociológica - 1993/1995</strong> <BR>
-                        <p class="editable" contenteditable="false">  Instituto de Pesquisas Sociais - São Paulo, SP<br>
-                        Colaborou em projetos de pesquisa voltados para análise social e comportamental.
-                           Participou da elaboração de relatórios e artigos científicos, contribuindo para a disseminação do conhecimento sobre questões sociais.</p></p>
-                       
-                        
-                       
-                     <strong>Educadora Social - 1999/2010</strong> <BR>
-                        <p class="editable" contenteditable="false"> ONG Voz da Comunidade - Rio de Janeiro, RJ <br>
-                            Desenvolveu e coordenou programas de inclusão social e educação para jovens em situação de vulnerabilidade.
-                            Organizou workshops e palestras sobre temas como cidadania e direitos humanos.</p>
-                        
-                    
+                    <div id="fomacao-academica">
+                    <div class="fomacao-academica">
+                        <div class="input-group">
+                            <label for="escolaridade">Nível de escolaridade*</label>
 
-
-
-            <h2> Acompanhe suas candidaturas</h2>
-
-<div class="application-status">
-  <div class="job-title">Consultor(a) Sênior de Experiência – Empresa LTSA</div>
-  <div class="progress-bar">
-    <div class="step active">Currículo</div>
-    <div class="line active"></div>
-    <div class="step active">Entrevista com o RH</div>
-    <div class="line"></div>
-    <div class="step">Entrevista com o gestor</div>
-    <div class="line"></div>
-    <div class="step">Aprovação</div>
-  </div>
-</div>
-
-<div class="application-status">
-  <div class="job-title">Assistente administrativo – Soluções Administrativas</div>
-  <div class="progress-bar">
-    <div class="step active">Currículo</div>
-    <div class="line"></div>
-    <div class="step">Entrevista com o RH</div>
-    <div class="line"></div>
-    <div class="step">Entrevista com o gestor</div>
-    <div class="line"></div>
-    <div class="step">Aprovação</div>
-  </div>
-</div>
-
-
-<div class="contact-section">
-    <div class="contact-text">
-        <strong>PRECISA DE MAIS INFORMAÇÕES?</strong>
-        <p>Entre em contato conosco, é fácil e rápido.</p>
-    </div>
-    <button class="contact-button">Contato</button>
-</div>
-
-
-            <footer>
-                <div class="footer-content">
-                    <div class="footer-section">
-                        <h3>Potencial Sênior</h3>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sintelit officia consequat</p>
-                    </div>
-                    <div class="footer-section">
-                        <h3>Home</h3>
-                        <ul>
-                            <li><a href="#">Quem somos</a></li>
-                            <li><a href="#">Vagas</a></li>
-                            <li><a href="#">Serviços</a></li>
-                            <li><a href="#">Contato</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-section">
-                        <h3>Serviços</h3>
-                        <ul>
-                            <li><a href="#">Cursos indicados</a></li>
-                            <li><a href="#">Eventos</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-section social-media">
-                        <h3>Siga nossas redes sociais</h3>
-                        <div class="social-icons">
-                            <span class="icon"></span>
-                            <span class="icon"></span>
-                            <span class="icon"></span>
-                            <span class="icon"></span>
+                            <div class="escolaridade-container">
+                                <input type="text" id="escolaridade" name="escolaridade[]" required>
+                                <button type="button" class="button-formacao">Adicionar outra formação</button>
+                            </div>
+                            
+                            <div class="input-group">
+                                <label for="tipo-curso">Tipo do curso*</label>
+                                <input type="text" id="tipo-curso" name="tipo-curso[]" required>
+                            </div>
+                            <div class="input-group">
+                            <label for="nome-curso">Nome do curso*</label>
+                            <input type="text" id="nome-curso" name="nome-curso[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="instituicao">Instituição*</label>
+                            <input type="text" id="instituicao" name="instituicao[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="situacao">Situação atual*</label>
+                            <div class="radio-group">
+                                <input type="radio" id="interrompido" name="situacao[]" value="interrompido">
+                                <label for="interrompido">Interrompido</label>
+                                <input type="radio" id="cursando" name="situacao[]" value="cursando">
+                                <label for="cursando">Cursando</label>
+                                <input type="radio" id="concluido" name="situacao[]" value="concluido">
+                                <label for="concluido">Concluído</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-inicio">Ano de início</label>
+                            <input type="text" id="ano-inicio" name="ano-inicio[]">
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-conclusao">Ano de conclusão</label>
+                            <input type="text" id="ano-conclusao" name="ano-conclusao[]">
                         </div>
                     </div>
-                </div>
-            </footer>
+
+                    <h2>Histórico Profissional</h2>
+                    <hr>
+                    <div id="historico-profissional">
+                    <div class="historico-profissional">
+                        <div class="input-group">
+                            <label for="empresa">Empresa*</label>
+                            <div class="profissao-container">
+                                <input type="text" id="empresa" name="empresa[]" required>
+                                <button type="button" class="button-profissao">Adicionar outra profissão</button>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="cargo">Cargo*</label>
+                            <input type="text" id="cargo" name="cargo[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="cidade-profissional">Cidade*</label>
+                            <input type="text" id="cidade-profissional" name="cidade-profissional[]" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-inicio-profissional">Ano de início</label>
+                            <input type="text" id="ano-inicio-profissional" name="ano-inicio-profissional[]">
+                        </div>
+                        <div class="input-group">
+                            <label for="ano-termino-profissional">Ano de término</label>
+                            <input type="text" id="ano-termino-profissional" name="ano-termino-profissional[]">
+                        </div>
+                        <div class="input-group">
+                            <label for="descricao-cargo">Descrição do cargo*</label>
+                            <textarea id="descricao-cargo" name="descricao-cargo[]" rows="4" required  ></textarea>
+                        </div>
+                        </div>
+                        <h2>Informações Complementares</h2>
+                            <hr>
+                        <div class="input-group">
+                            <textarea name="informacoes-complementares" id="informacoes-complementares" rows="4" placeholder="Texto livre para você complementar seu currículo."></textarea>
+                        </div>
+                        </div>
+                    <div class="buttonsalva-container">
+                        <button type="submit">Salvar informações</button>
+                    </div>
+                </form>
+            </section>
         </main>
         <script src="codigo.js"></script> 
     </body>
