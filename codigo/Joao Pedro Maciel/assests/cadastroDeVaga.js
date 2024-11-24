@@ -216,22 +216,4 @@ function buscarVaga() {
 }
 
 
-const modal = document.getElementById("notificationModal");
-const abrirMOdal = document.getElementById("openModal");
-const fecharModal = document.querySelector(".close");
 
-abrirMOdal.onclick = function () {
-    modal.style.display = "block";
-}
-
-
-fecharModal.onclick = function () {
-    modal.style.display = "none";
-}
-
-
-window.onclick = function (event) {
-    if (event.target === modal) {
-        modal.style.display = "none";
-    }
-}
