@@ -272,6 +272,7 @@ footer {
     color: #333;
     font-size: 0.9em;
     line-height: 1.5;
+    text-align:start;
 }
 
 .footer-section ul {
