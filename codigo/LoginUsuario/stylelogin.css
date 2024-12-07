@@ -33,123 +33,24 @@ body
     width: auto;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0px 15px;
-    font-weight: bold;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
-.icons {
-    display: flex;
-    align-items: center;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.notification {
-    background-image: url('/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/imgs/bell-fill.svg'); 
-    filter: invert(1);
-}
-
-.user {
-    background-image: url('/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/imgs/person-circle.svg'); 
-    filter: invert(1);
-}
-
-.content_header
+.TituloForm
 {
-    display: flex;
-}
-#TopoCursos
-{
-    display: flex;
-    justify-content: space-around;
-    padding: 5%;
-}
-#Texto
-{
-    text-align: center;
-    padding-top: 50px;
-}
-
-#Texto h1
-{
-    font-family: "Poppins", serif;
+    font-family : "Poppins", sans-serif;
+    font-size: 15pt;
+    color:#0A5C46;
     font-weight: 600;
-    font-style: normal;
-    color:#0A5C46
 }
+.card {
+    min-height: 400px; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    flex-grow: 1; 
+  }
 
-#Texto p
-{
-    line-height: 1.8;
-    font-weight: 700; 
-    color:#606060;
-    font-family: "Open Sans", serif;
-}
 
-#Cards
-{
-    margin: auto;
-    margin-bottom: 80px;
-    width: 75%;
-    
-}
-#Cards .card
-{
-    background-color: #FDFCFA; 
-}
-.card-body
-{
-    height: 150px;
-    margin:15px;
-}
-.card 
-{
-    transition: transform 0.3s ease; 
-}
-.card:hover
-{
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.card-link 
-{
-    text-decoration: none;
-    color: inherit; 
-    display: block; 
-}
-h5
-{
-    color:#262626;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-[class^="descricao"]
-{
-    font-family: "Open Sans", sans-serif;
-    color:#606060;
-    font-size: 11pt;
-}
-.plataforma
-{
-    font-family: "Open Sans", sans-serif;
-    color:#AAAAAA;
-    font-size: 11pt;
-}
 .Contato
 {
     display: flex;
@@ -161,20 +62,16 @@ h5
     width: 80%;
     justify-content: space-between;
     border-radius: 15px;
-    z-index:1;
-    position: relative;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    z-index:0;
 }
 .Contato h1
 {
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
 }
 .Contato p
 {
     color:#FFFFFF;
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
 }
 .Contatar
 {
@@ -186,8 +83,8 @@ h5
     height: 50px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
-    font-size: 11pt;
+    font-weight: 600;
+    font-size: 10pt;
     z-index: 3;
 }
 .Contatar:hover
@@ -225,6 +122,7 @@ footer {
     color: #333;
     font-size: 0.9em;
     line-height: 1.5;
+    text-align:start;
 }
 
 .footer-section ul {

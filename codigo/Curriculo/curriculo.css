@@ -57,12 +57,12 @@ body
 }
 
 .notification {
-    background-image: url(imgs/bell-fill.svg); 
+    background-image: url(/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/imgs/bell-fill.svg); 
     filter: invert(1);
 }
 
 .user {
-    background-image: url('imgs/person-circle.svg'); 
+    background-image: url('/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/imgs/person-circle.svg'); 
     filter: invert(1);
 }
 
