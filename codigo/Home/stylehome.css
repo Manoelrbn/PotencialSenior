@@ -55,7 +55,7 @@ body
     color:#0A5C46;
     border: #0A5C46;
     border-radius: 10px;
-    width: 140px;
+    width: 150px;
     height: 40px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -63,7 +63,7 @@ body
     font-size: 10pt;
     z-index: 3;
 }
-.Contatar:hover
+.BotaoNav:hover
 {
     cursor: pointer;
 }
@@ -78,6 +78,31 @@ h2
     font-weight: 300;
 }
 
+.banner
+{            
+    position: relative; 
+    width: 100%; 
+    max-width: 700px; 
+    text-align: center;
+}
+
+.TextoBanner
+{
+
+    width: 100%;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    color: white; 
+    font-size: 40px; 
+    display: flex;
+    flex-direction: column;
+}
+.TextoBanner h3
+{
+    font-size: 1.2em;
+    font-weight: 600;
+}
 .Contato
 {
     display: flex;
