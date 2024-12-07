@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Empresa/Vagas</title>
     <link rel="stylesheet" href="cadastro_vaga.css">
+    <title>Potential Senior</title>
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <img src="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Joao Pedro Maciel/assests/imgs/logo.jpg" alt="Logo" />
+            <img src="assets/logo.jpg" alt="Logo" />
         </div>
     </header>
     <main>
         <h1>Bem-vindo(a) ao seu novo Potencial!</h1>
-        <p>Vamos começar cadastrando os dados da sua empresa e a vaga que deseja divulgar!</p>
+        <p id="principal">Vamos começar cadastrando os dados da sua empresa e a vaga que deseja divulgar!</p>
 
         <section class="form-section">
             <form id="cadastroVagaForm" action="/submit" method="post">
@@ -55,9 +55,14 @@
                 <h2>Descrição da vaga</h2>
                 <hr>
                 <div class="descricao-vaga">
+                    <label for="beneficios">Benefícios da vaga*</label>
+                    <textarea name="beneficios" id="beneficios" rows="7" placeholder="Insira um pequeno resumo sobre os benefícios da vaga*"></textarea>
+                    <label for="resumo">Resumo da vaga*</label>
                     <textarea name="resumo" id="resumo" rows="7" placeholder="Insira um pequeno resumo sobre a vaga*"></textarea>
-                    <textarea name="responsabilidades" id="responsabilidades" rows="7" placeholder="Responsabilidades do empregado*"></textarea>
-                    <textarea name="requisitos" id="requisitos" rows="7" placeholder="Requisitos necessários*"></textarea>
+                    <label for="responsabilidades">Responsabilidades da vaga*</label>
+                    <textarea name="responsabilidades" id="responsabilidades" rows="7" placeholder="Informe as responsabilidades do empregado*"></textarea>
+                    <label for="requisitos">Requisitos da vaga*</label>
+                    <textarea name="requisitos" id="requisitos" rows="7" placeholder="Informe os requisitos necessários para a vaga*"></textarea>
                 </div>
 
                 <div class="buttonsalvar">
@@ -66,6 +71,39 @@
             </form>
         </section>
     </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Potencial Sênior</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sintelit officia consequat</p>
+            </div>
+            <div class="footer-section">
+                <h3>Home</h3>
+                <ul>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Vagas</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Serviços</h3>
+                <ul>
+                    <li><a href="#">Cursos indicados</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Siga nossas redes sociais</h3>
+                <div class="social-icons">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="cadastro_vaga.js"></script>   
 </body>
 </html>

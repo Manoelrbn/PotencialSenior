@@ -7,6 +7,7 @@ function submitForm() {
         nome_vaga: document.getElementById("nome-vaga").value,
         salario: document.getElementById("salario").value,
         localizacao: document.getElementById("localizacao").value,
+        beneficios: document.getElementById("beneficios").value,
         resumo: document.getElementById("resumo").value,
         responsabilidades: document.getElementById("responsabilidades").value,
         requisitos: document.getElementById("requisitos").value
