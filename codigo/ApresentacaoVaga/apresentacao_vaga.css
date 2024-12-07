@@ -62,10 +62,20 @@ h3 {
     font-size: 18px;
 }
 
+i {
+    margin-right: 10px;
+    
+}
+
+.green-icon {
+    color: #2C694D; 
+}
+
 .dados-vaga {
     padding-top: 20px;
     padding-left: 20px;
     color:#909B99;
+    
 }
 
 .dados-vaga #pt {

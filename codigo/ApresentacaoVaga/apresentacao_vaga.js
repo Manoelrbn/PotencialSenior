@@ -42,4 +42,8 @@ const formData = JSON.parse(sessionStorage.getItem("cadastroVagaForm"));
         });
     }
         
-    });
+});
+
+function editarVaga() {
+    window.location.href = 'cadastro_vaga.html';
+}
