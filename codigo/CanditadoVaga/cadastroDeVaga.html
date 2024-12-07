@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/CanditadoVaga/cadastroDeVaga.css">
+    <title>Potential Senior</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <a href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Home/home.html"><img src="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/imgs/logo.jpg" alt="Logo" /></a>
+            
+        </div>
+        <div class="content_header">
+            <nav class="nav-links">
+                <a href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/CanditadoVaga/">Vagas</a>
+                <a href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Cursos/cursos.html">Cursos</a>
+            </nav>
+            <div class="icons">
+                <span class="icon notification"></span>
+                <span class="icon user"></span>
+                <span class="username">Lúcia de Andrade</span>
+            </div>
+        </div>
+    </header>
+    <div class="conteiner">
+        <div class="cardCurriculo">
+            <h2>Aumente suas chances de conseguir um emprego!</h2>
+            <h4>Mantenha seu currículo atualizado!</h4>
+            <button>Atualize agora!</button>
+        </div>
+    </div>
+    
+    
+        <div class="filtro">
+            <div class="conteinerInput">
+                <svg class="iconeLopaFiltro" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>
+                <input id="cargo" class="inputFiltro" type="text" placeholder="Digite um cargo:" value="">
+            </div>
+            <div class="conteinerInput">
+                <svg class="iconeMapa"xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+                <input id="local" class="inputFiltro" type="text" placeholder="Digite o local:" value="">
+            </div>
+            <div class="conteinerInput">
+                <svg class="iconeSeta" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+              </svg>
+                <select  class="inputFiltro" id="categoria" value="" >
+                    <option value="Estagio">Estagio</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                    <option value="Pleno">Pleno</option>
+                  </select>
+            </div>
+            
+            
+        </div>
+
+
+    <div class="filtro_btt">
+        <button type="submit" onclick="buscarVaga()">Buscar vagas</button>
+    </div>
+
+    <div class="conteinerVaga" id="vagasContainer">
+        
+        
+    </div>
+
+    <div class="conteiner">
+        <div class="cardInf">
+            <h2>Precisa de mais informações?</h2>
+            <p>Entre em contato conosco, é facil e rápido.</p>
+            <button><a href=""></a>CONTATO</button>
+        </div>
+    </div>
+   
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Potencial Sênior</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sintelit officia consequat</p>
+            </div>
+            <div class="footer-section">
+                <h3>Home</h3>
+                <ul>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Vagas</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Serviços</h3>
+                <ul>
+                    <li><a href="#">Cursos indicados</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Siga nossas redes sociais</h3>
+                <div class="social-icons">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="assests/cadastroDeVaga.js"></script>
+</body>
+</html>
