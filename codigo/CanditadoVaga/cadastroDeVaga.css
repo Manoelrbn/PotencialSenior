@@ -22,6 +22,8 @@ body
   justify-content: space-between;
   background-color: #0f6051;
   padding: 20px 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   color: white;
   gap: 15px;
 }
@@ -83,6 +85,7 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
+  gap: 15px;
   width: 80%;
   max-width: 1200px;
 }
@@ -96,12 +99,16 @@ footer {
   color: #1c5d51;
   font-size: 1.2em;
   margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .footer-section p {
-  color: #333;
   font-size: 0.9em;
   line-height: 1.5;
+  text-align:start;
+  font-family: 'Open Sans', sans-serif;
+  color:#606060;
 }
 
 .footer-section ul {
@@ -114,7 +121,7 @@ footer {
 
 .footer-section ul li a {
   text-decoration: none;
-  color: #333;
+  color:#606060;
   font-size: 0.9em;
 }
 
@@ -146,7 +153,8 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 70px;
+  margin-bottom: 30px;
   width: 1000px;
   height: 270px;
   max-width: 1000px;
@@ -158,6 +166,8 @@ footer {
 
 .cardCurriculo h2 {
   font-size: 32px;
+  font-weight: 600;
+  font-family:'Poppins', sans-serif;
   padding-top: 10px;
   padding-bottom: 25px;
   color: #0a5c46;
@@ -165,6 +175,8 @@ footer {
 
 .cardCurriculo h4 {
   font-size: 24px;
+  font-weight: 700;
+  font-family:'Open Sans', sans-serif;
   padding-bottom: 20px;
   color: #606060;
 }
@@ -202,7 +214,6 @@ footer {
   width: 100%;
   max-width: 500px;
   margin: 10px 0;
-  font-family: inter;
 }
 
 .inputFiltro {
@@ -212,6 +223,9 @@ footer {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px 10px 10px 35px;
+  font-family: 'Inter', sans-serif;
+  color: #606060;
+  font-weight: 600;
 }
 
 .inputFiltro input:focus {
@@ -229,6 +243,7 @@ footer {
   height: 20px;
   background-size: contain;
   background-repeat: no-repeat;
+  color: #606060;
 }
 .filtro_btt {
   display: flex;
@@ -247,7 +262,7 @@ footer {
   padding: 12px 34px;
   font-size: 16px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -303,6 +318,8 @@ footer {
 
 .cardInf h2 {
   color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 28px;
   margin-bottom: 10px;
   display: flex;
@@ -310,14 +327,17 @@ footer {
 
 .cardInf p {
   color: white;
-  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
   margin-bottom: 20px;
   display: flex;
 }
 
-.cardInf button {
+.cardInf button 
+{
   background-color: white;
-  color:#0A5C46;
+  color: #0A5C46;
   border: #0A5C46;
   padding: 12px 24px;
   border-radius: 15px;
@@ -326,12 +346,15 @@ footer {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   display: flex;
-  position: absolute; 
-  top: 40px; 
-  right: 20px; 
+  justify-content: center;  
+  align-items: center;      
+  position: absolute;
+  top: 40px;
+  right: 20px;
 }
+
 
 /* Responsividade */
 @media (max-width: 768px) {

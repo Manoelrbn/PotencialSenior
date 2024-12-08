@@ -486,10 +486,12 @@ footer {
     color: #1c5d51;
     font-size: 1.2em;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .footer-section p {
-    color: #333;
+    color:#606060;
     font-size: 0.9em;
     line-height: 1.5;
     text-align:start;
@@ -505,7 +507,7 @@ footer {
 
 .footer-section ul li a {
     text-decoration: none;
-    color: #333;
+    color:#606060;
     font-size: 0.9em;
 }
 
