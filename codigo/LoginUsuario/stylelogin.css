@@ -33,12 +33,51 @@ body
     width: auto;
 }
 
+.banner-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.banner-content h1
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 25pt;
+    color:#0A5C46;
+    font-weight: 600;
+}
+.banner-content p
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15pt;
+    color:#606060;
+    font-weight: 500;
+}
 .TituloForm
 {
     font-family : "Poppins", sans-serif;
     font-size: 15pt;
     color:#0A5C46;
     font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form-group
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Linha
+{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .card {
     min-height: 400px; 
@@ -50,6 +89,39 @@ body
     flex-grow: 1; 
   }
 
+#BotaoCadastro
+{
+    display: inline-block;
+    padding: 12px 60px;
+    background-color: #0A5C46;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+
+}
+
+#BotaoLogin
+{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #0A5C46;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+
+}
 
 .Contato
 {
