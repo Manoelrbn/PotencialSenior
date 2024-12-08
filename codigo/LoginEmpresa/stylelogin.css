@@ -33,13 +33,48 @@ body
     width: auto;
 }
 
+.banner-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.banner-content h1
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 25pt;
+    color:#0A5C46;
+    font-weight: 600;
+}
+.banner-content p
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15pt;
+    color:#606060;
+    font-weight: 500;
+}
+
 .TituloForm
 {
     font-family : "Poppins", sans-serif;
     font-size: 15pt;
     color:#0A5C46;
     font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+.form-group
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .card {
     min-height: 400px; 
     display: flex;
@@ -50,47 +85,88 @@ body
     flex-grow: 1; 
   }
 
+#BotaoCadastro
+{
+    display: inline-block;
+    padding: 12px 60px;
+    background-color: #0A5C46;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+
+}
+
+#BotaoLogin
+{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #0A5C46;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+
+}
 
 .Contato
-{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    padding: 20px 90px;
-    background-color:#0A5C46;
-    color:#FFFFFF;
-    width: 80%;
-    justify-content: space-between;
-    border-radius: 15px;
-    z-index:0;
-}
-.Contato h1
-{
-    font-weight: 500;
-}
-.Contato p
-{
-    color:#FFFFFF;
-    font-weight: 400;
-}
-.Contatar
-{
-    background-color: #FFFFFF;
-    color:#0A5C46;
-    border: #0A5C46;
-    border-radius: 15px;
-    width: 140px;
-    height: 50px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-size: 10pt;
-    z-index: 3;
-}
-.Contatar:hover
-{
-    cursor: pointer;
-}
+  {
+      display: flex;
+      align-items: center;
+      margin: 50px auto;
+      padding: 30px 90px;
+      background-color:#0A5C46;
+      color:#FFFFFF;
+      width: 80%;
+      justify-content: space-between;
+      border-radius: 9px;
+      z-index:0;
+      
+  }
+  .Contato h1
+  {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 28px;
+      margin-left: -50px;
+  }
+  .Contato p
+  {
+      margin-left: -50px;
+      font-size: 17px;
+      color:#FFFFFF;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+  }
+  .Contatar
+  {
+      background-color: #FFFFFF;
+      color:#0A5C46;
+      border: #0A5C46;
+      border-radius: 15px;
+      width: 140px;
+      height: 50px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-size: 10pt;
+      z-index: 3;
+  }
+  .Contatar:hover
+  {
+      cursor: pointer;
+  }
 
 footer {
     background-color: #f5f5f5;
@@ -116,10 +192,12 @@ footer {
     color: #1c5d51;
     font-size: 1.2em;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .footer-section p {
-    color: #333;
+    color:#606060;
     font-size: 0.9em;
     line-height: 1.5;
     text-align:start;
@@ -135,7 +213,7 @@ footer {
 
 .footer-section ul li a {
     text-decoration: none;
-    color: #333;
+    color:#606060;
     font-size: 0.9em;
 }
 
