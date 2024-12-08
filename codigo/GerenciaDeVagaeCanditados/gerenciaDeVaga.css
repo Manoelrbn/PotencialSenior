@@ -1,4 +1,7 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +9,9 @@
     text-decoration: none;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    
     color: #333;
   }
   
@@ -18,22 +20,31 @@ body {
     align-items: center; /* Alinha verticalmente ao centro */
     justify-content: space-around; /* Adiciona espaço entre o título e o botão */
     margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
   }
   
   h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 25px;
     color: #065e37;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
   }
   
   .add-button {
+    display: inline-block;
+    padding: 12px 40px;
     background-color: #0A5C46;
-    color: white;
+    color: #fff;
+    text-decoration: none;
     border: none;
-    padding: 10px 20px;
+    border-radius: 15px;
     font-size: 16px;
-    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
     cursor: pointer;
+    align-self: center;
   }
   
   .add-button:hover {
@@ -61,10 +72,13 @@ body {
   .card h2 {
     font-size: 18px;
     margin: 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
   }
   
   .card p {
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
     color: #666;
     margin: 0 0 20px;
   }
@@ -84,39 +98,46 @@ body {
     color: #044829;
   }
   
-  .gerencieCad h1{
-   padding-left: 323px;
-   margin-top: 100px;
+  .CandidatosCadastro
+  {
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
 
-  
-
+  .CandidatosCadastro h1
+  {
+    margin-left: 10%;
+    margin-bottom: 40px;
+  }
   .cardsCad {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
   }
   
   .cardCad {
-    width: 250px;
-    height: 100px;
+    width: 350px;
+    height: 120px;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: start;
   }
   
   .cardsCad h2 {
     margin-bottom: 5px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
   }
   
   .cardsCad p {
     font-size: 14px;
     color: #666;
+    font-family: 'Open Sans', sans-serif;
   }
 
   footer {
@@ -208,12 +229,15 @@ body {
     color: #1c5d51;
     font-size: 1.2em;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
   }
   
   .footer-section p {
-    color: #333;
+    color: #606060;
     font-size: 0.9em;
     line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .footer-section ul {
@@ -226,8 +250,9 @@ body {
   
   .footer-section ul li a {
     text-decoration: none;
-    color: #333;
+    color: #606060;
     font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .footer-section ul li a:hover {
@@ -263,16 +288,19 @@ body {
   
   .cardInf h2 {
     color: white;
-    font-size: 28px;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
     display: flex;
   }
   
   .cardInf p {
-    color: white;
-    font-size: 18px;
-    margin-bottom: 20px;
-    display: flex;
+    font-size: 17px;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
   }
   
   .cardInf button {
@@ -284,9 +312,11 @@ body {
     width: 140px;
     height: 50px;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    text-align: center;
+    justify-content: center;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 10pt;
     display: flex;
     position: absolute; 
     top: 40px; 
@@ -297,6 +327,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
     background-color: #0f6051;
     padding: 20px 50px;
     color: white;
@@ -313,32 +344,10 @@ body {
     color: white;
     text-decoration: none;
     margin: 0px 15px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
 }
 
-.icons {
-    display: flex;
-    align-items: center;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.notification {
-    background-image: url('assests/bell-fill.svg'); 
-    filter: invert(1);
-}
-
-.user {
-    background-image: url('assests/person-circle.svg'); 
-    filter: invert(1);
-}
