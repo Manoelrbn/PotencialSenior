@@ -1,5 +1,5 @@
 // URLs para redirecionamento
-const LOGIN_SUCCESS_URL = 'pagina_inicial.html';
+const LOGIN_SUCCESS_URL = '/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/CanditadoVaga/cadastroDeVaga.html';
 const REGISTER_SUCCESS_URL = '/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Curriculo/curriculo.html';
 const LOGIN_REDIRECT_URL = '/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/CanditadoVaga/cadastroDeVaga.html';
 
@@ -8,6 +8,12 @@ function processLoginForm(event) {
   event.preventDefault();
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
+
+  // Verifica se os campos estão vazios
+  if (!username || !password) {
+    alert('Por favor, preencha todos os campos.');
+    return;
+  }
 
   // Recupera os dados do usuário do localStorage
   const usuarioCadastrado = JSON.parse(localStorage.getItem('usuario'));
@@ -18,7 +24,7 @@ function processLoginForm(event) {
     window.location.href = LOGIN_SUCCESS_URL; // Redireciona após login bem-sucedido
   } else {
     alert('Usuário ou senha incorretos');
-  }  
+  }
 }
 
 // Função para processar o cadastro
@@ -31,6 +37,13 @@ function salvaCadastro(event) {
   // Verifica se as senhas coincidem
   if (senha !== senha2) {
     alert('As senhas não conferem!');
+    return;
+  }
+
+  // Verifica se o e-mail já está cadastrado
+  const usuarioExistente = JSON.parse(localStorage.getItem('usuario'));
+  if (usuarioExistente && usuarioExistente.email === email) {
+    alert('Este e-mail já está cadastrado!');
     return;
   }
 
