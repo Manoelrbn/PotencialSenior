@@ -3,12 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+/* Reseta margens e espaçamentos padrão */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo de linha divisória */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #2C694D;
+    margin: 5px; 
+}
+
+/* Corpo da página */
 body
 {
     font-size: 100%;
@@ -16,6 +26,7 @@ body
     background-color: #ffffff;
 }
 
+/* Cabeçalho */
 .header {
     display: flex;
     align-items: center;
@@ -71,15 +82,7 @@ body
     display: flex;
 }
 
-
-hr {
-    border: none;
-    height: 1px;
-    background-color: #2C694D;
-    margin: 5px; 
-}
-
-
+/* Estilo do conteúdo principal */
 main {
     background-color: white;
     padding: 20px;
@@ -95,31 +98,44 @@ h1 {
     font-family: "Poppins", sans-serif;
 }
 
+
 p {
     padding: 10px;
     text-align: center;
     margin-bottom: 30px;
+    font-family:'Open Sans', sans-serif;
 }
 
 h2 {
     color: #2C694D;
     margin-top: 20px;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
+/* Formulário */
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-
+/* Foto de perfil */
 .foto-perfil {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     position: relative;
+}
+
+.foto-perfil img {
+    margin-top: 15px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #ccc;
 }
 
 .foto-perfil input[type="file"] {
@@ -132,20 +148,15 @@ form {
     cursor: pointer;
 }
 
-.foto-perfil img {
-    margin-top: 15px;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    background-color: #ccc;
-}
-.dados-pessois{
+/* Seções do formulário */
+.dados-pessois {
     display: flex;
     flex-direction: column;     
     gap: 10px;                 
     flex: 1;                  
 }
-.dados-pessoais-section{
+
+.dados-pessoais-section {
     display: flex;              
     justify-content: space-between; 
     align-items: flex-start;    
@@ -153,100 +164,72 @@ form {
     margin-bottom: 20px; 
 }
 
+/* Botões */
 button {
     background-color: #2C694D;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 15px 10px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family:'Inter', sans-serif;
 }
-
 
 button:hover {
     background-color: #1e4d36;
 }
 
-.escolaridade-container{
-    display: flex; 
-    align-items:center; 
-    gap:100px; 
-}
-.profissao-container{
-    display: flex; 
-    align-items:center; 
-    gap:105px; 
-}
-
-.button-formacao {
-    padding: 8px 10px; 
+.button-formacao, .button-profissao {
+    padding: 10px 15px; 
     border-radius: 10px; 
     cursor: pointer; 
-    height: 40px;
-    width: 600px;
     text-align: center; 
     display: flex;
     align-items: center; 
     justify-content: center; 
     font-size: 14px;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
 }
 
-.buttonsalva-container{
+.buttonsalva-container {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-   
-
-
 }
 
-.button-profissao {
-    padding: 8px 10px; 
-    border-radius: 10px; 
-    cursor: pointer; 
-    height: 40px;
-    width: 600px;
-    text-align: center; 
-    display: flex;
+/* Containers */
+.escolaridade-container, .profissao-container {
+    display: flex; 
     align-items: center; 
-    justify-content: center; 
-    font-size: 14px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.fomacao-academica{
+.fomacao-academica {
     display: flex; 
     flex-direction: column; 
+    gap: 10px;
 }
+
+.formacao-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
 label {
     margin-bottom: 7px; 
     display: block;
-}
-
-.radio-group {
-    display: inline-flex; 
-    justify-content: center; 
-    gap: 40px; 
-    align-items: center; 
-}
-.endereco{
-    display: flex; 
-    flex-wrap: wrap; 
-}
-.contato{
-    display: flex; 
-    flex-wrap: wrap; 
-}
-
-.input-group {
-    flex: 1;
-}
-.input-group2{
-    flex: 1;
-    min-width: 200px;
-}
-.input-group3{
-    flex: 1;
-    min-width: 560px;
+    font-family:'Open Sans', sans-serif;
 }
 
 input, textarea {
@@ -255,18 +238,29 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
-
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.idade-nacionalidade {
+input:focus, textarea:focus {
+    outline: 2px solid #2C694D; 
+    border-color: #2C694D;
+    background-color: #f3fdf7;
+}
+
+/* Grupos de Inputs */
+.idade-nacionalidade, .endereco, .contato {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-textarea {
-    resize: vertical;
+.radio-group {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    align-items: center; 
+    margin-bottom: 15px; 
 }
-
 
 footer {
     background-color: #f5f5f5;
@@ -330,4 +324,22 @@ footer {
     height: 20px;
     background-color: #ccc;
     border-radius: 50%;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .escolaridade-container, .profissao-container {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .input-group, .input-group2, .input-group3 {
+        flex: 1 1 100%; 
+        min-width: auto;
+    }
+
+    .button-formacao, .button-profissao {
+        width: 100%;
+    }
 }

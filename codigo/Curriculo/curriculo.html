@@ -6,7 +6,7 @@
         <title>Curriculo</title>
         <link rel="stylesheet" href="curriculo.css">
     </head>
-    <body> 
+    <body>
         <header class="header">
             <div class="logo">
                 <a href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Home/Home/home.html">
@@ -25,7 +25,7 @@
                     <span class="username">Lúcia de Andrade</span>
                 </div>
             </div>
-        </header>  
+        </header>    
         <main>
             <h1>Bem-vindo(a) ao seu novo Potencial!</h1>
             <p>Vamos começar cadastrando seu currículo para encontrar as vagas mais compatíveis com seu perfil.</p>
@@ -107,20 +107,20 @@
                     <div class="fomacao-academica">
                         <div class="input-group">
                             <label for="escolaridade">Nível de escolaridade*</label>
+                            <input type="text" id="escolaridade" name="escolaridade[]" required>
+                        </div>
 
-                            <div class="escolaridade-container">
-                                <input type="text" id="escolaridade" name="escolaridade[]" required>
-                                <button type="button" class="button-formacao">Adicionar outra formação</button>
-                            </div>
+                            
+                            
                             
                             <div class="input-group">
                                 <label for="tipo-curso">Tipo do curso*</label>
                                 <input type="text" id="tipo-curso" name="tipo-curso[]" required>
                             </div>
                             <div class="input-group">
-                            <label for="nome-curso">Nome do curso*</label>
-                            <input type="text" id="nome-curso" name="nome-curso[]" required>
-                        </div>
+                                <label for="nome-curso">Nome do curso*</label>
+                                <input type="text" id="nome-curso" name="nome-curso[]" required>
+                             </div>
                         <div class="input-group">
                             <label for="instituicao">Instituição*</label>
                             <input type="text" id="instituicao" name="instituicao[]" required>
@@ -144,6 +144,13 @@
                             <label for="ano-conclusao">Ano de conclusão</label>
                             <input type="text" id="ano-conclusao" name="ano-conclusao[]">
                         </div>
+
+                        <div class="escolaridade-container">
+                            
+                            <button type="button" class="button-formacao">Adicionar outra formação</button>
+                            
+                            <div id="fomacao-academica-java"></div> <!-- Essa div irá armazenar os campos dinâmicos -->
+                        </div>
                     </div>
 
                     <h2>Histórico Profissional</h2>
@@ -152,10 +159,9 @@
                     <div class="historico-profissional">
                         <div class="input-group">
                             <label for="empresa">Empresa*</label>
-                            <div class="profissao-container">
-                                <input type="text" id="empresa" name="empresa[]" required>
-                                <button type="button" class="button-profissao">Adicionar outra profissão</button>
-                            </div>
+                            <input type="text" id="empresa" name="empresa[]" required>
+                        </div>
+                            
                         </div>
                         <div class="input-group">
                             <label for="cargo">Cargo*</label>
@@ -176,6 +182,11 @@
                         <div class="input-group">
                             <label for="descricao-cargo">Descrição do cargo*</label>
                             <textarea id="descricao-cargo" name="descricao-cargo[]" rows="4" required  ></textarea>
+                        </div>
+                        <div class="profissao-container">
+                                
+                            <button type="button" class="button-profissao">Adicionar outra profissão</button>
+                            <div id="historico-profissional-java"></div>
                         </div>
                         </div>
                         <h2>Informações Complementares</h2>
@@ -223,6 +234,7 @@
                 </div>
             </div>
         </footer>
-        <script src="codigo.js"></script> 
+        <script src="codigo.js"></script>
     </body>
+    
 </html>
