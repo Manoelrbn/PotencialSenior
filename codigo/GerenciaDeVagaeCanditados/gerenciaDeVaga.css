@@ -50,8 +50,9 @@ body {
   .add-button:hover {
     background-color: #0A5C46;
   }
-  
-  
+  a:visited {
+    color: #606060;
+  }
   .cards {
     display: flex;
     justify-content: center;
