@@ -3,15 +3,15 @@ message: Please cite this software using these metadata.
 title: 
 authors:
   - family-names: Ana Luiza 
-    given-names:  Rodrigues
+    given-names:  de Freitas Rodrigues
   - family-names: João Pedro 
-    given-names:  Oliveira
+    given-names:  Maciel de Oliveira
   - family-names: Júlia 
-    given-names: Ventura
+    given-names: de Souza Ventura
   - family-names: Manoel 
-    given-names:  Neto
+    given-names:  Rodrigues Bezerra Neto
   - family-names: Yuri  
-    given-names: Viana
+    given-names: Cardoso Viana
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Diego 
