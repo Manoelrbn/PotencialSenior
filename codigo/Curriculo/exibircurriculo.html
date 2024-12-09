@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="exibircurriculo.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Home/Home/home.html">
+            <img src="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/imgs/logo.jpg" alt="Logo" />
+        </a>
+        </div>
+        <div class="content_header">
+            <nav class="nav-links">
+                <a href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/CanditadoVaga/cadastroDeVaga.html">Vagas</a>
+                <a href="/pmg-es-2024-2-ti1-2401100-potencial-senior/codigo/Cursos/cursos.html">Cursos</a>
+            </nav>
+            <div class="icons">
+                <span class="icon notification"></span>
+                <span class="icon user"></span>
+                <span class="username">Lúcia de Andrade</span>
+            </div>
+        </div>
+    </header>   
+    <main>
+        <section class="form-section">
+            <div id="Cabecalho">
+                <h2>Dados pessoais</h2>
+                <button class="edit-btn" onclick="toggleEdit()">Editar currículo</button>
+            </div>
+            <hr>
+            <form id="curriculoForm" action="/submit" method="POST">
+                <div class="dados-pessoais-section">
+                    <div class="foto-perfil">
+                        <img src="Imagens/R.jpg" id="foto-preview" alt="Foto de perfil">
+                        <input type="file" id="foto-perfil" name="foto-perfil" style="display:none;">
+                        <button type="button" onclick="document.getElementById('foto-perfil').click()">Adicionar foto</button>
+                    </div>
+
+                    <div class="dados-pessoais">
+                        <p><strong id="nome"></strong></p>
+                        <p class="editable" id="email" contenteditable="false"></p>
+                        <p class="editable" id="idade" contenteditable="false"></p>
+                        <p class="editable" id="nacionalidade" contenteditable="false"></p>
+                    </div>
+                </div>
+                <h2>Endereço</h2>
+                <hr>
+                <div class="endereco">
+                    <div class="input-group3">
+                        <strong>Endereço*</strong>
+                        <p class="editable" id="endereco" contenteditable="false"></p>
+                        <p class="editable" id="celular" contenteditable="false"></p>
+                    </div>
+                </div>
+
+                <h2>Resumo Profissional</h2>
+                <hr>
+                <div class="contato">
+                    <p class="editable" id="resumo" contenteditable="false"></p>
+                </div>
+
+                <h2>Formação Acadêmica</h2>
+                <hr>
+                <div id="formacao-academica">
+                    <!-- As formações acadêmicas serão inseridas aqui dinamicamente -->
+                </div>
+
+                <h2>Histórico Profissional</h2>
+                <hr>
+                <div id="historico-profissional">
+                    <!-- O histórico profissional será inserido aqui dinamicamente -->
+                </div>
+
+                <h2 id="Candidaturas">Acompanhe suas candidaturas</h2>
+                <div class="application-status">
+                    <div class="job-title">Consultor(a) Sênior de Experiência – Empresa LTSA</div>
+                    <div class="progress-bar">
+                        <div class="step active">Currículo</div>
+                        <div class="line active"></div>
+                        <div class="step active">Entrevista com o RH</div>
+                        <div class="line"></div>
+                        <div class="step">Entrevista com o gestor</div>
+                        <div class="line"></div>
+                        <div class="step">Aprovação</div>
+                    </div>
+                </div>
+
+                <div class="contact-section">
+                    <div class="contact-text">
+                        <strong>PRECISA DE MAIS INFORMAÇÕES?</strong>
+                        <p>Entre em contato conosco, é fácil e rápido.</p>
+                    </div>
+                    <button class="contact-button">Contato</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Potencial Sênior</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint elit officia consequat.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Home</h3>
+                <ul>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Vagas</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Serviços</h3>
+                <ul>
+                    <li><a href="#">Cursos indicados</a></li>
+                    <li><a href="#">Eventos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Siga nossas redes sociais</h3>
+                <div class="social-icons">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="exibircurriculo.js"></script>
+</body>
+</html>
