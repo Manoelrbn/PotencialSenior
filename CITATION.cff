@@ -1,29 +1,35 @@
 cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: 
+message: "Please cite this software using these metadata."
+title: "Potencial Senior"
 authors:
-  - family-names: Ana Luiza 
-    given-names:  de Freitas Rodrigues
-  - family-names: João Pedro 
-    given-names:  Maciel de Oliveira
-  - family-names: Júlia 
-    given-names: de Souza Ventura
-  - family-names: Manoel 
-    given-names:  Rodrigues Bezerra Neto
-  - family-names: Yuri  
-    given-names: Cardoso Viana
-  - name-suffix: Professor
+  - family-names: Freitas Rodrigues
+    given-names: Ana Luiza
+  - family-names: Maciel de Oliveira
+    given-names: João Pedro
+  - family-names: Souza Ventura
+    given-names: Júlia
+  - family-names: Rodrigues Bezerra Neto
+    given-names: Manoel
+  - family-names: Cardoso Viana
+    given-names: Yuri
+  - family-names: Soares de Andrade
+    given-names: Michelle Hanne
+    name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Diego 
-    given-names:  Barros
-  - name-suffix: Professor
+  - family-names: Carneiro Aramuni
+    given-names: João Paulo
+    name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Michelle
-    given-names:  Andrade
+  - family-names: de Faria Barros
+    given-names: Diego Augusto
+    name-suffix: Professor
+    affiliation: PUC Minas
 keywords:
-  - 
-  - 
-repository-code: 
+  - Idosos
+  - Terceira Idade
+  - Emprego
+  - Trabalho
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-2-ti1-2401100-potencial-senior.git
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
